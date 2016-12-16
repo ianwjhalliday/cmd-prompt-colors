@@ -1,0 +1,47 @@
+Windows Registry Editor Version 5.00
+; Command Prompt Color Scheme
+;
+; Low-contrast, pastel color scheme
+
+; Colors are encoded as 00BBGGRR
+;
+; ColorTable order is:
+;
+; 00  Dim Black     (Default background)
+; 01  Dim Blue
+; 02  Dim Green
+; 03  Dim Cyan
+; 04  Dim Red
+; 05  Dim Magenta   (Default popup text)
+; 06  Dim Yellow
+; 07  Dim White
+; 08 Bold Black     (Default popup text)
+; 09 Bold Blue
+; 10 Bold Green
+; 11 Bold Cyan
+; 12 Bold Red
+; 13 Bold Magenta
+; 14 Bold Yellow
+; 15 Bold White     (Default popup background)
+
+[HKEY_CURRENT_USER\Console]
+
+; Dim colors
+"ColorTable00"=dword:00222222
+"ColorTable01"=dword:00a69a7c
+"ColorTable02"=dword:00557e6c
+"ColorTable03"=dword:00a18e4c
+"ColorTable04"=dword:0041569e
+"ColorTable05"=dword:009d6d95
+"ColorTable06"=dword:002bafca
+"ColorTable07"=dword:00808080
+
+; Bold colors
+"ColorTable08"=dword:00454545
+"ColorTable09"=dword:00bfad8f
+"ColorTable10"=dword:007db37d
+"ColorTable11"=dword:00d0c16b
+"ColorTable12"=dword:006d89cc
+"ColorTable13"=dword:00cb8fc1
+"ColorTable14"=dword:0056b5bf
+"ColorTable15"=dword:00cdcdcd

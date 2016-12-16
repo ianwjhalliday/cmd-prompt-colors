@@ -1,0 +1,48 @@
+Windows Registry Editor Version 5.00
+; Command Prompt Color Scheme
+;
+; Zenburn is a low-contrast color scheme
+; See : http://slinky.imukuppi.org/zenburnpage/
+
+; Colors are encoded as 00BBGGRR
+;
+; ColorTable order is:
+;
+; 00  Dim Black     (Default background)
+; 01  Dim Blue
+; 02  Dim Green
+; 03  Dim Cyan
+; 04  Dim Red
+; 05  Dim Magenta   (Default popup text)
+; 06  Dim Yellow
+; 07  Dim White
+; 08 Bold Black     (Default popup text)
+; 09 Bold Blue
+; 10 Bold Green
+; 11 Bold Cyan
+; 12 Bold Red
+; 13 Bold Magenta
+; 14 Bold Yellow
+; 15 Bold White     (Default popup background)
+
+[HKEY_CURRENT_USER\Console]
+
+; Dim colors
+"ColorTable00"=dword:003f3f3f
+"ColorTable01"=dword:00af6464
+"ColorTable02"=dword:00008000
+"ColorTable03"=dword:00808000
+"ColorTable04"=dword:00232333
+"ColorTable05"=dword:00aa50aa
+"ColorTable06"=dword:0000dcdc
+"ColorTable07"=dword:00ccdcdc
+
+; Bold colors
+"ColorTable08"=dword:008080c0
+"ColorTable09"=dword:00ffafaf
+"ColorTable10"=dword:007f9f7f
+"ColorTable11"=dword:00d3d08c
+"ColorTable12"=dword:007071e3
+"ColorTable13"=dword:00c880c8
+"ColorTable14"=dword:00afdff0
+"ColorTable15"=dword:00ffffff

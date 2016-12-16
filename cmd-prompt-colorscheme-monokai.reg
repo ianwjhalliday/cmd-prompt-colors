@@ -1,0 +1,47 @@
+Windows Registry Editor Version 5.00
+; Command Prompt Color Scheme
+;
+; Monokai color theme. Based on Sublime Text 2's monokai palette.
+
+; Colors are encoded as 00BBGGRR
+;
+; ColorTable order is:
+;
+; 00  Dim Black     (Default background)
+; 01  Dim Blue
+; 02  Dim Green
+; 03  Dim Cyan
+; 04  Dim Red
+; 05  Dim Magenta   (Default popup text)
+; 06  Dim Yellow
+; 07  Dim White
+; 08 Bold Black     (Default popup text)
+; 09 Bold Blue
+; 10 Bold Green
+; 11 Bold Cyan
+; 12 Bold Red
+; 13 Bold Magenta
+; 14 Bold Yellow
+; 15 Bold White     (Default popup background)
+
+[HKEY_CURRENT_USER\Console]
+
+; Dim colors
+"ColorTable00"=dword:00222827
+"ColorTable01"=dword:00a64c1d
+"ColorTable02"=dword:0000995d
+"ColorTable03"=dword:00746a31
+"ColorTable04"=dword:002900b0
+"ColorTable05"=dword:00b63865
+"ColorTable06"=dword:001f97fd
+"ColorTable07"=dword:008a908f
+
+; Bold colors
+"ColorTable08"=dword:00414746
+"ColorTable09"=dword:00ef9566
+"ColorTable10"=dword:002ee2a6
+"ColorTable11"=dword:00efd966
+"ColorTable12"=dword:007226f9
+"ColorTable13"=dword:00ff81ae
+"ColorTable14"=dword:0074dbe6
+"ColorTable15"=dword:00f2f8f8
